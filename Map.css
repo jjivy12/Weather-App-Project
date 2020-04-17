@@ -1,0 +1,46 @@
+body{
+	background-image: url(https://cdn5.vectorstock.com/i/1000x1000/26/59/modern-globe-network-blue-background-vector-782659.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+h1{
+	color: green;
+	margin-top: 125px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration: bold;
+}
+
+#btn1{ margin-top:300px;  
+	background-color: green;
+
+}
+
+#btn2{ 
+background-color: green;
+}
+
+#btn1:hover {background-color: lightblue}
+#btn2:hover {background-color: lightblue}
+
+#btn1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#btn2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#ip1{
+	margin-left:475px;
+}
+
+#ip2{
+	margin-left:475px;
+}
