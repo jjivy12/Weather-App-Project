@@ -1,0 +1,23 @@
+{
+  "name": "jordanweatherapp",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjivy12/Weather-App-Project.git"
+  },
+  "author": "Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjivy12/Weather-App-Project/issues"
+  },
+  "homepage": "https://github.com/jjivy12/Weather-App-Project#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

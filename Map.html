@@ -6,12 +6,16 @@
 </head>
 <body>
 	<h1>WHAT'S THE WEATHER AND TIME?</h1>
-	<input id="ip1" type="number" name="mybox">
-	<button id="btn1">What's the Time</button>
+	<input id="ip1" type="number" class="inputValue" name="mybox" placeholder="ZIPCODE">
+	<button id="btn1" type="submit">Fetch Weather And Time</button>
 	<br>
-	<br>
-	<input id= "ip2" type="number" name="mybox">
-	<button id="btn2">What's the weather like</button>
+    <p id="displayMoment"></p>
+    <p class="desc"></p>
+    <p class="temp"></p>
 
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="moment.js"></script>
+<script src="./moment-timezone-with-data.js"></script>
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
